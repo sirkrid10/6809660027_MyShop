@@ -54,7 +54,7 @@ header .btn {
     padding: 60px;
     background-image: url(/resources/BonsaiMainPage.png);
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: local;
     background-size: 81%;
     background-position: right;
 }
@@ -101,7 +101,8 @@ header .btn {
 #break {
     position: absolute;
     object-fit: cover;
-    width: 1480px;
+    width: 100vw;
+    height: auto;
     z-index: 0;
 }
 
